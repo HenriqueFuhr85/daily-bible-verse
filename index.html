@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Um versículo bíblico diferente a cada dia.">
+  <title>Versículo do Dia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="card">
+    <p class="date" id="date"></p>
+    <h1>Versículo do Dia</h1>
+
+    <blockquote>
+      <p class="verse" id="verse-text"></p>
+      <cite class="ref" id="verse-ref"></cite>
+    </blockquote>
+
+    <div class="actions">
+      <button id="prev" aria-label="Dia anterior">&larr;</button>
+      <button id="share">Compartilhar</button>
+      <button id="next" aria-label="Próximo dia">&rarr;</button>
+    </div>
+    <p class="status" id="status" role="status"></p>
+  </main>
+
+  <footer>
+    Daily Bible Verse
+  </footer>
+
+  <script src="verses.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
