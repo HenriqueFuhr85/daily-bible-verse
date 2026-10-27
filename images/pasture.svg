@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bfe3f5"/>
+      <stop offset="1" stop-color="#eef8fc"/>
+    </linearGradient>
+    <g id="sheep">
+      <rect x="-16" y="8" width="5" height="16" rx="2" fill="#4a4038"/>
+      <rect x="10" y="8" width="5" height="16" rx="2" fill="#4a4038"/>
+      <ellipse cx="0" cy="0" rx="28" ry="18" fill="#ffffff"/>
+      <circle cx="-15" cy="-9" r="11" fill="#ffffff"/>
+      <circle cx="6" cy="-12" r="12" fill="#ffffff"/>
+      <ellipse cx="28" cy="-6" rx="9" ry="8" fill="#4a4038"/>
+    </g>
+  </defs>
+  <rect width="600" height="300" fill="url(#sky)"/>
+  <circle cx="90" cy="65" r="30" fill="#fff4c2"/>
+  <g fill="#ffffff">
+    <ellipse cx="430" cy="70" rx="50" ry="16"/>
+    <ellipse cx="460" cy="58" rx="30" ry="16"/>
+  </g>
+  <path d="M0 200 Q180 140 360 190 T600 170 L600 300 L0 300Z" fill="#a7d48a"/>
+  <path d="M0 250 Q250 195 600 240 L600 300 L0 300Z" fill="#7fbf6a"/>
+  <use href="#sheep" transform="translate(170 235)"/>
+  <use href="#sheep" transform="translate(300 255) scale(1.15)"/>
+  <use href="#sheep" transform="translate(440 225) scale(-0.9 0.9)"/>
+</svg>

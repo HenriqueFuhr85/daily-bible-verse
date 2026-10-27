@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fde4ec"/>
+      <stop offset="1" stop-color="#fff7fa"/>
+    </linearGradient>
+    <g id="petals">
+      <circle cx="0" cy="-14" r="10"/>
+      <circle cx="13" cy="-4" r="10"/>
+      <circle cx="8" cy="12" r="10"/>
+      <circle cx="-8" cy="12" r="10"/>
+      <circle cx="-13" cy="-4" r="10"/>
+    </g>
+  </defs>
+  <rect width="600" height="300" fill="url(#sky)"/>
+  <g stroke="#5e9c4f" stroke-width="5" stroke-linecap="round">
+    <path d="M110 300 L115 190"/>
+    <path d="M210 300 L205 150"/>
+    <path d="M300 300 L300 175"/>
+    <path d="M395 300 L398 140"/>
+    <path d="M490 300 L485 195"/>
+  </g>
+  <path d="M0 260 Q300 230 600 260 L600 300 L0 300Z" fill="#9fd08a"/>
+  <use href="#petals" fill="#f28fb0" transform="translate(115 190)"/>
+  <use href="#petals" fill="#ffd166" transform="translate(205 150) scale(1.2)"/>
+  <use href="#petals" fill="#b892e8" transform="translate(300 175)"/>
+  <use href="#petals" fill="#ff9f7a" transform="translate(398 140) scale(1.2)"/>
+  <use href="#petals" fill="#f28fb0" transform="translate(485 195)"/>
+  <g fill="#fff6d8">
+    <circle cx="115" cy="190" r="7"/>
+    <circle cx="205" cy="150" r="8"/>
+    <circle cx="300" cy="175" r="7"/>
+    <circle cx="398" cy="140" r="8"/>
+    <circle cx="485" cy="195" r="7"/>
+  </g>
+</svg>

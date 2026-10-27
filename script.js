@@ -15,6 +15,7 @@ let offset = 0; // 0 = hoje, -1 = ontem, +1 = amanhã...
 const dateEl = document.getElementById("date");
 const textEl = document.getElementById("verse-text");
 const refEl = document.getElementById("verse-ref");
+const imageEl = document.getElementById("verse-image");
 const statusEl = document.getElementById("status");
 
 function selectedDate() {
@@ -32,6 +33,7 @@ function render() {
   });
   textEl.textContent = `“${verse.text}”`;
   refEl.textContent = verse.ref;
+  imageEl.src = `images/${verse.image}.svg`;
   statusEl.textContent = "";
 }
 

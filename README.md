@@ -7,6 +7,7 @@ Um site simples que mostra um versículo bíblico diferente a cada dia. Feito s�
 ## Como funciona
 
 - Cada dia do calendário corresponde a um versículo da lista em [verses.js](verses.js). Todas as pessoas veem o mesmo versículo no mesmo dia, e ele muda à meia-noite.
+- Cada versículo vem com uma ilustração ligada ao seu tema (pasta [images/](images/)).
 - As setas ← → navegam pelos dias anteriores e seguintes.
 - O botão **Compartilhar** abre o menu de compartilhamento do celular ou copia o versículo para a área de transferência no computador.
 - Tem tema claro e escuro automático, de acordo com o sistema.
@@ -27,8 +28,10 @@ Basta abrir o arquivo `index.html` no navegador (dois cliques nele).
 Abra [verses.js](verses.js) e acrescente uma linha no final da lista:
 
 ```js
-{ text: "Texto do versículo.", ref: "Livro 1:1" },
+{ text: "Texto do versículo.", ref: "Livro 1:1", image: "sunrise" },
 ```
+
+Em `image`, use o nome de uma das ilustrações da pasta `images/` (sem o `.svg`): `birds`, `cross`, `dove`, `flowers`, `lamp`, `mountain`, `night`, `pasture`, `path`, `sea`, `sunrise` ou `tree`.
 
 Os textos são baseados na tradução de João Ferreira de Almeida; vale conferir com a sua Bíblia de preferência.
 

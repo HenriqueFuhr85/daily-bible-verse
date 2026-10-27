@@ -62,6 +62,14 @@ h1 {
   color: var(--accent);
 }
 
+.illustration {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 24px;
+  border-radius: 12px;
+}
+
 blockquote {
   margin: 0;
 }
